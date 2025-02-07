@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "dragonshoard",
+	"version": "${version}",
+	"name": "Dragon's Hoard",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Pome-Tia"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/dragonshoard/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.pometia.dragonshoard.DragonsHoard"
+		],
+		"fabric-datagen": [
+			"net.pometia.dragonshoard.DragonsHoardDataGenerator"
+		],
+		"client": [
+			"net.pometia.dragonshoard.DragonsHoardModClient"
+		]
+	},
+	"mixins": [
+		"dragonshoard.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
