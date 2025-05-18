@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+
+    "minecraft:gold_block",
+    "dragonshoard:rose_gold_block",
+    "dragonshoard:white_gold_block",
+    "dragonshoard:blue_gold_block",
+    "dragonshoard:moonstone_crystal"
+
+  ]
+}
